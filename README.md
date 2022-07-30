@@ -2,7 +2,6 @@
 
 > Project status: :warning: (developing)
 
-![Design preview for the Calc](./assets/design/active-states-theme-1.jpg)
 
 ## Project description
 
