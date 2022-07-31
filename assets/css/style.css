@@ -4,31 +4,54 @@
 .calc {
     background-color: hsl(228, 45%, 44%);
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-row: 24.75% 24.75% 24.75% 24.75%;
+    grid-template-columns: 5% 5% 5% 5% 5%;
+    grid-row: auto;
+    margin-left: 30%;
+    width: 150%;
+    margin-top: 5%;
 
 }
 .display {
-    grid-column: 1/6;
+    grid-column: 2/6;
     grid-row: 1/1;
-    background-color: rgb(47, 8, 84);
     font-size: 11px;
+    background-color: rgb(47, 8, 84);
 }
+button {
+    text-align: center;
+    font-size: 32px;
+    margin-left: 4%;
+    margin-top: 12%;
+    width: 90px;
+    height: 50px;
+}
+.reset-operation {
+    width: 100px;
+    height: 50px;
+
+}
+
 .result-operation {
     grid-column: 4/2;
     grid-row: 7/7;
+
 }
 .reset-operation {
     grid-column: 6/4;
     grid-row: 7/7;
+    height: 50px;
+
 }
 .del-operation {
     grid-column: 5/5;
     grid-row: 3/3;
+
 }
 .sum-operation{
     grid-column: 5/5;
     grid-row: 4/4;
+
+
 }
 .sub-operation {
     grid-column: 5/5;
@@ -91,7 +114,7 @@
 }
 
 footer {
-    grid-column: 2/6;
+    grid-column: 2/10;
     grid-row: 10/10;
     display: inline-block;
     margin-top: 50px;
@@ -99,9 +122,5 @@ footer {
     text-decoration: none;
 }
 
-.buttons{
-    text-align: center;
-    font-size: 32px;
-}
 
 
