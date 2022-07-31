@@ -1,0 +1,1 @@
+let displayCal = document.querySelectorAll('.display');
