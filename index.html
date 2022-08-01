@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="assets/css/style.css">
+   
     <title>Calculator</title>
 </head>
 <header>
@@ -14,29 +15,34 @@
 </header>
 <body class="calc">
 
-    <div class="display">
-        OOOOOOOOOOOOOOOO
-    </div>
-   
-        <button class="sum-operation" data-action="sum">+</button>
-        <button class="sub-operation" data-action="subtraction">-</button>
-        <button class="mult-operation" data-action="multiplication">x</button>
-        <button class="division-operation" data-action="division">/</button>
-        <button class="result-operation" data-action="result">=</button>
-        <button class="del-operation" data-action="Del">DEL</button>
-        <button class="reset-operation" type="reset">RESET</button>
-        <button class="number" data-action=".">.</button>
-        <button class="number_collum9" data-action="9">9</button>
-        <button class="number_collum8" data-action="8">8</button>
-        <button class="number_collum7" data-action="7">7</button>
-        <button class="number_collum6" data-action="6">6</button>
-        <button class="number_collum5" data-action="5">5</button>
-        <button class="number_collum4" data-action="4">4</button>
-        <button class="number_collum3" data-action="3">3</button>
-        <button class="number_collum2" data-action="2">2</button>
-        <button class="number_collum1" data-action="1">1</button>
-        <button class="number_collum0" data-action="0">0</button>
-    
+
+    <section>
+
+        <div class="display">
+               
+        </div>
+
+        <div class="button">
+            <button class="number" onclick="insert('7')">7</button>
+            <button class="number" onclick="insert('8')">8</button>
+            <button class="number" onclick="insert('9')">9</button>
+            <button class="del-operation" onclick="back()">DEL</button>
+            <button class="number" onclick="insert('4')">4</button>
+            <button class="number" onclick="insert('5')">5</button>
+            <button class="number" onclick="insert('6')">6</button>
+            <button class="sum-operation" onclick="insert('+')">+</button>
+            <button class="number" onclick="insert('1')">1</button>
+            <button class="number" onclick="insert('2')">2</button>
+            <button class="number" onclick="insert('3')">3</button>
+            <button class="sub-operation" onclick="insert('-')">-</button>
+            <button class="number" onclick="insert('.')">.</button>
+            <button class="number" onclick="insert('30')">0</button>
+            <button class="division-operation" onclick="insert('/')">/</button>
+            <button class="mult-operation" onclick="insert('*')">x</button>
+            <button class="reset-operation" onclick="clean()">RESET</button>
+            <button class="result-operation" onclick="result('=')">=</button>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
@@ -47,3 +53,10 @@
     </div>
 </footer>
 </html>
+
+
+
+
+
+
+
